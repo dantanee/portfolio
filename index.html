@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <main>
+    <header class="header">
+      <img class="logo" src="./images/logo.svg" alt="">
+      <div class="hamburger"> <img  class="cover" src="./images/icons/hamburger.svg" alt=""></div>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./contact.html">Contact Me</a>
+      </nav>
+    </header>
+    <div class="hero">
+      <figure class="mobile-hero">
+        <img  src="./images/homepage/mobile/image-homepage-hero.jpg" alt=""
+        srcset="./images/homepage/mobile/image-homepage-hero.jpg,
+                ./images/homepage/mobile/image-homepage-hero@2x.jpg
+        "  
+        >
+      </figure>
+        <figure class="tablet-hero">
+          <img  src="./images/homepage/tablet/image-homepage-hero.jpg" alt=""
+          srcset="./images/homepage/tablet/image-homepage-hero.jpg,
+                  ./images/homepage/tablet/image-homepage-hero@2x.jpg
+          "  
+          >
+        </figure>
+      <figure class="desktop-hero">
+        <img  src="./images/homepage/desktop/image-homepage-hero.jpg" alt=""
+        srcset="./images/homepage/desktop/image-homepage-hero.jpg,
+                ./images/homepage/desktop/image-homepage-hero@2x.jpg
+        "  
+        >
+      </figure>
+      <div class="text">
+        <h1>Hey,I'm Yasir Salis and I love building beautiful websites</h1>
+        <button class="goto">  <span class="arrows"><img src="./images/icons/down-arrows.svg" alt=""></span><a href="#about">ABOUT ME</a></button>
+      </div>
+    </div>
+    <section id= "about" class="about">
+      <figure class="mobile-profile">
+        <img src="./images/homepage/mobile/image-homepage-profile.jpg" alt="my picture"
+        srcset="./images/homepage/mobile/image-homepage-profile.jpg,
+        ./images/homepage/mobile/image-homepage-profile@2x.jpg
+        "
+        >
+      </figure>
+      <figure class="tablet-profile">
+        <img class="fit" src="./images/homepage/tablet/image-homepage-profile.jpg" alt="my picture"
+        srcset="./images/homepage/tablet/image-homepage-profile.jpg,
+        ./images/homepage/tablet/image-homepage-profile@2x.jpg
+        "
+        >
+      </figure>
+      <figure class="desktop-profile ">
+        <img class="fit" src="./images/homepage/desktop/image-homepage-profile.jpg" alt="my picture"
+        srcset="./images/homepage/desktop/image-homepage-profile.jpg,
+        ./images/homepage/desktop/image-homepage-profile@2x.jpg
+        "
+        >
+      </figure>
+      
+      <div  class="about-text">
+        <h1>About me</h1>
+        <p>I’m a junior front-end developer looking for a new role in an exciting company. 
+          I focus on writing accessible HTML, using modern CSS practices and writing clean,scalable and maintainable
+           JavaScript.
+           When writing JavaScript code, I mostly use React,
+            but I can adapt to whatever tools are required. I’m happy working remotely and have experience in remote teams.
+             When I’m not coding, you’ll find me watching documentaries or watching tech related videos.
+              I love playing football and enjoy watching it too, Kindly checkout my resume below.</p>
+              <!-- <button class="resume button"><a href="./manage.html">GO TO RESUME</a></button> 
+              --><a href="./resume.html" class="button">GO TO RESUME</a>
+      </div>
+    </section>
+    <section class="contact">
+      <h1>Interested in doing a project together?</h1>
+     
+      <button class="button contact-btn">
+        
+        <a href="/contact.html">CONTACT ME</a>
+      </button>
+    </section>
+  </main>
+  <footer class="footer">
+    <img src="./images/footer-logo.svg" alt="logo">
+    <nav class="footers-nav">
+      <a href="/">Home</a>
+      <a href="./resume.html">Portfolio</a>
+      <a href="./contact.html">Contact Me</a>
+    </nav>
+    <div class="icons">
+      <img src="./images/icons/github.svg" alt="">
+      <img src="./images/icons/twitter.svg" alt="">
+      <img src="./images/icons/linkedin.svg" alt="">
+    </div>
+  </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
