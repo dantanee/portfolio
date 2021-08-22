@@ -124,7 +124,7 @@ h2 {
 	main {
 		grid-template-columns: 1fr 1fr;
 	}
-	.harmburger {
+	.hamburger {
 		display: none;
 	}
 	.nav {
