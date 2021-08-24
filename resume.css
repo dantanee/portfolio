@@ -124,6 +124,9 @@ h2 {
 	main {
 		grid-template-columns: 1fr 1fr;
 	}
+	.header {
+		padding: 64px;
+	}
 	.hamburger {
 		display: none;
 	}
